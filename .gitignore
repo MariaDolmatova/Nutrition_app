@@ -1,0 +1,26 @@
+# Environment & secrets
+.env
+
+# Virtual environment
+venv/
+
+# Personal data (local only)
+profile.json
+db.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Streamlit temp files
+*.tmp.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
