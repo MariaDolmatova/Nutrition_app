@@ -10,7 +10,7 @@ A personalised meal planning app built with Streamlit. It fetches real recipes f
 2. [Project structure](#project-structure)
 3. [Features](#features)
 4. [ML recommendation model](#ml-recommendation-model)
-5. [Groq LLM integration](#groq-llm-integration)
+5. [LLM integration](#llm-integration)
 6. [Data sources](#data-sources)
 7. [Configuration](#configuration)
 
@@ -266,7 +266,7 @@ meal_row.py → renders scrollable card row
 
 ---
 
-## Groq LLM integration
+## LLM integration
 
 All Groq calls are in [`services/groq_chain.py`](services/groq_chain.py). The client is initialised lazily and cached in a module-level variable so only one connection is made per process ([`groq_chain.py:8-22`](services/groq_chain.py#L8)).
 
