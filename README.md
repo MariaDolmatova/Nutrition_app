@@ -21,7 +21,7 @@ A personalised meal planning app built with Streamlit. It fetches real recipes f
 ### Prerequisites
 - Python 3.9+
 - Edamam Recipe Search API credentials ([developer.edamam.com](https://developer.edamam.com))
-- Groq API key ([console.groq.com](https://console.groq.com))
+- Groq API key ([console.groq.com](https://console.groq.com)) (used as a free option for my project)
 
 ### Install
 
