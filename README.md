@@ -99,7 +99,7 @@ nutrition-app/
 
 The ML layer lives in [`services/ml_ranking.py`](services/ml_ranking.py) and is wired into the ranking pipeline in [`services/personalization.py`](services/personalization.py).
 
-### Philosophy
+### Clarifications
 
 This is **content-based filtering** — no other users' data is involved. The model learns what *you* like by comparing the numerical representation of recipes you've interacted with against candidates. It requires no external ML library beyond NumPy (already pulled in by Plotly).
 
